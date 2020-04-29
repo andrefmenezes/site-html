@@ -1,0 +1,87 @@
+@charset "UTF-8"
+
+
+
+p{
+	font-size: 20pt;
+}
+article#a p{
+	color: black;
+	font-family: Arial, sans-serif;
+	font-size: 20pt;
+	
+}
+article#a h1{
+	color: black;
+	font-family: Arial, sans-serif;
+	font-size: 20pt;
+}
+header#cabecalho3 img#icone{
+	position: absolute;
+	left: 550px;
+	top: 10px;
+}
+
+header#cabecalho3{
+border-bottom: 1px #606060 solid;
+height: 100px;
+
+
+}
+header#cabecalho3 h1{
+	font-family: Algerian, sans-serif;
+	font-size: 30pt;
+	color: black;
+	padding: 0px;
+	margin-top: 0px;
+	
+}
+header#cabecalho3 h2{
+	font-family: Castellar, sans-serif;
+	color: black;
+	font-size: 14pt;
+	padding: 0px;
+	margin-top: 0px;
+}
+nav#menu3{
+	display: block;
+}
+nav#menu3 ol{
+	
+	list-style: none;
+	text-transform: uppercase;/* nome maisculo*/
+	position: absolute;
+	top: 80px;
+	left: 440px;
+
+}
+nav#menu3 li{
+	border-radius: 8px;
+	display: inline-block;
+	background-color: black;
+	padding: 10px;
+	margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu3 li:hover{
+	background-color: white;
+}
+nav#menu3 h1{
+	display: none;/*escoder o : menu principal*/
+
+}
+nav#menu3 a {
+	color: white;
+	text-decoration: none;
+	
+}
+nav#menu3 a:hover{
+	color: black;
+	text-decoration: underline;
+}
+header#cabecalho3 img#icone{
+	position: absolute;
+	left: 900px;
+	top: 0px;
+}

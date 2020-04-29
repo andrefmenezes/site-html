@@ -1,0 +1,151 @@
+@charset "UTF-8"
+
+
+body{
+	 
+	font-family: Arial, sans-serif;
+	color: rgba(0,0,0,1);
+	 
+}
+
+p{
+	text-indent: 50px;
+	text-align: justify;
+	color: black;
+}
+a{
+	color: #606060;
+	text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+}
+figure.foto-legenda{
+	/* "classe pai*/
+	position: relative;/* relativo ao html*/
+	margin-left: 330px;
+
+
+}      
+figure.foto-legenda img{
+	/*filho*/
+	width: 47%;
+	height: 47%;
+}
+
+/* formataçao do menu*/
+nav#menu{
+	display: block;
+}
+nav#menu ol{
+	list-style: none;
+	text-transform: uppercase;/* nome maisculo*/
+	position: absolute;
+	top: 80px;
+	left: 440px;
+
+}
+nav#menu li{
+	border-radius: 8px;
+	display: inline-block;
+	background-color: #062345;
+	padding: 10px;
+	margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover{
+	background-color: #062345;
+}
+nav#menu h1{
+	display: none;/*escoder o : menu principal*/
+
+}
+nav#menu a {
+	color: #00baff;
+	text-decoration: none;
+	
+}
+nav#menu a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+div#interface{
+	margin: auto auto  auto auto;
+	padding: 30px ;
+	
+}
+header#cabecalho img#icone{
+	position: absolute;
+	left: 550px;
+	top: 10px;
+}
+
+header#cabecalho{
+border-bottom: 1px #606060 solid;
+height: 100px;
+
+
+}
+header#cabecalho h1{
+	font-family: Algerian, sans-serif;
+	font-size: 30pt;
+	color: #00baff;
+	margin-top: 0px;
+	padding: 0px;
+
+	
+}
+header#cabecalho h2{
+	font-family: Castellar, sans-serif;
+	color: #00baff;
+	font-size: 14pt;
+	padding: 0px;
+	margin-top: 0px;
+}
+section#corpo{
+	display: block;
+	width: 900px;	
+	padding-right: 50px;
+	margin-left: 180px;
+
+
+
+}
+article#noticia-principal h2{
+	font-size: 12pt;
+	color:  #004040;
+	margin: 10px;
+	background-color: white;
+	padding: 5px 0px 5px 0px;
+
+}
+header#cabecalho-artigo h1{
+font-family: Arial;
+font-size: 20pt;
+color: #606060;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.direita{
+	text-align: right;
+	font-size: 10pt;
+}
+header#cabecalho-artigo h2{
+font-size: 12pt;
+color: #cecece;
+background-color: #ffffff;
+margin: 0px;
+}
+
+
+footer#rodape{
+clear: both;
+border-top: 1px solid #606060;
+}
+footer#rodape p{
+	text-align: center;
+	color: #00baff;
+}
+

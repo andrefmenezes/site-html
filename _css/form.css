@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+body{
+	background-repeat: no-repeat;
+	background-position: 35% 55%;
+	background-color: white;
+    
+}
+form {
+	width: 400px;
+	margin-left: 390px;
+	margin-top: 47px;
+}
+
+hgroup#hg h1{
+margin-top: -30px;
+
+}
+hgroup#hg h2{
+margin-top: -20px;
+
+}
+
+input, textarea {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 11pt;
+	background-color: rgba(255,255,255,.8)
+}
+
+input:hover, textarea:hover {
+	background-color: #dddddd;
+}
+
+legend {
+	color: black;
+	font-weight: bold;
+	font-size: 17pt;
+	font-family: sans-serif;
+}
+
+fieldset {
+	border-color: black;
+	border-radius: 8px;
+	margin: 20px;
+}
+
+fieldset#sexo {
+	   width: 130px;
+}
+
+nav#menu2{
+	display: block;
+}
+nav#menu2 ol{
+	
+	list-style: none;
+	text-transform: uppercase;/* nome maisculo*/
+	position: absolute;
+	top: 50px;
+	left: 440px;
+
+}
+nav#menu2 li{
+	border-radius: 8px;
+	display: inline-block;
+	background-color: black;
+	padding: 10px;
+	margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu2 li:hover{
+	background-color: white;
+}
+nav#menu2 h1{
+	display: none;/*escoder o : menu principal*/
+
+}
+nav#menu2 a {
+	color: white;
+	text-decoration: none;
+	
+}
+nav#menu2 a:hover{
+	color: black;
+	text-decoration: underline;
+}
+header#cabecalho2 img#icone{
+	position: absolute;
+	left: 900px;
+	top: 0px;
+}
+header#cabecalho2{
+border-bottom: 1px #606060 solid;
+height: 95px;
+
+
+}
+header#cabecalho2 h1{
+	font-family: Algerian, sans-serif;
+	font-size: 30pt;
+	color: black;
+	padding: 0px;
+	
+}
+header#cabecalho2 h2{
+	font-family:  Castellar, sans-serif;
+	color: black;
+	font-size: 12pt;
+	padding: 0px;
+	margin-top: 0px;
+}
+ footer#rodape2{
+clear: both;
+border-top: 1px solid #606060;
+height: 50px;
+margin-top: 40px;
+}
+footer#rodape2 p{
+	text-align: center;
+	color: #00baff;
+	margin-top: 30px;
+}
+input#img{
+	margin-left: 320px;
+
+}
+

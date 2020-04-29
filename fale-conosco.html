@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>TS</title>
+
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" href="_css/form.css"/>
+    <script language="javascript" src="_javascript/funcoes.js"></script>
+    
+</head>
+
+
+
+<body background="fundo2.jpg">
+
+
+    
+<div id="interface">
+
+    <header id="cabecalho2">
+        <hgroup id="hg">
+            <h1> 
+                TS
+            </h1>
+            <h2>
+                Levamos soluções para sua empresa
+            </h2>
+        </hgroup>
+
+
+        <img id="icone" src=""/>
+        <nav id = "menu2">
+            <h1>Menu Principal</h1>
+            <ol type="1">
+                <li onmouseover="mudaFoto('04')" onmouseout="mudaFoto('')"><a href ="ts.html">A TS</a></li>
+                <li onmouseover="mudaFoto('03')" onmouseout="mudaFoto('')"><a  href="soluc.html"> Soluções e Serviços</a></li>
+                
+                <li onmouseover="mudaFoto('01')" onmouseout="mudaFoto('')"><a href ="index.html"> Home</a></li>
+            </ol>
+        </nav>
+
+    </header>
+
+
+
+
+
+<form method="post" id="fContato" action="mailto:decomenezes00@gmail.com" oninput="calc_total();">
+<fieldset id="usuario"><legend>Fale Conosco</legend>
+<p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="40" maxlength="30" placeholder="Nome completo"></p>    
+<p>E-mail: <input type="email" name="tmail" id="cMail" size="40" maxlength="40" placeholder="Email"></p>
+<p><label for="cAs">Assunto:</label> <input type="text" name="tAs" id="cAs" size="40" maxlength="30" placeholder="Assunto"></p>
+
+
+
+
+<p><label for ="Msg">Mensagem: </label>
+    <textarea name="tMsg" id="cMsg" cols="35" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></p>
+    <input id="img" type="image" name="tEnviar" src="_imagens/botao-enviar.png">
+</fieldset>
+
+
+
+</form>
+
+<footer id="rodape2">
+    
+    <p>
+        Facebook | Twitter</p> 
+</footer>
+
+</div>
+
+
+
+
+
+
+    
+</body>
+
+</html>
